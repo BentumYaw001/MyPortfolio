@@ -12,7 +12,9 @@ function MainBody({ id }) {
               <span> frontend developer</span>
             </h3>
             <p>I craft reponsive websites where technology meets creativity</p>
-            <h2>Contact ME</h2>
+            <a href="mailto:richmondbentum2020@gmail.com" target="_blank">
+              Contact ME
+            </a>
           </div>
           <div className="CurrentWork">
             <img src={Image1} alt="" className="Image1" />

@@ -16,20 +16,22 @@ function Contact({ id }) {
               <>
                 <div className="PersonalLines" key={index}>
                   <img src={item.icon} alt={item.name} />
-                  <a href={item.address}>{item.name}</a>
+                  <a href={item.address} target="_blank">
+                    {item.name}
+                  </a>
                 </div>
               </>
             );
           })}
         </div>
       </div>
-
+      {/* 
       <div className="Contacts">
         <h2>
           <span># </span>FeedBack <hr />
         </h2>
-      </div>
-
+      </div> */}
+      {/* 
       <div className="FeedBack">
         <div className="Details">
           <input type="text" name="name" id="" placeholder="Name" required />
@@ -38,7 +40,7 @@ function Contact({ id }) {
         <input type="text" name="title" id="" placeholder="Title" required />
         <textarea name="feedback" placeholder="Message..." required></textarea>
         <div className="Send">Send</div>
-      </div>
+      </div> */}
     </>
   );
 }

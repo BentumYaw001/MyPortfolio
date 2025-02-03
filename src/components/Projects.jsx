@@ -18,8 +18,12 @@ function Projects({ id }) {
                   <div className="ProjectName">{item.name}</div>
                   <div className="ProjectDescription">{item.description}</div>
 
-                  <a href={item.liveSite}>Live</a>
-                  <a href={item.githubLink}>Github</a>
+                  <a href={item.liveSite} target="_blank">
+                    Live
+                  </a>
+                  <a href={item.githubLink} target="_blank">
+                    Github
+                  </a>
                 </div>
               </>
             );

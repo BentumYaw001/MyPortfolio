@@ -367,6 +367,15 @@ textarea {
   color: gray;
 }
 /* Footer Starts here */
+.FooterIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterIcons a {
+  border: none;
+  cursor: pointer;
+}
 
 /* page scroll effect */
 .Active {
