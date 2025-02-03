@@ -17,13 +17,12 @@ function MainBody({ id }) {
             </a>
           </div>
           <div className="CurrentWork">
-            <img src={Image1} alt="" className="Image1" />
-            <img src={DortNine} alt="" className="DortNineImage" />
+            {/* <img src={Image1} alt="" className="Image1" /> */}
+            {/* <img src={DortNine} alt="" className="DortNineImage" /> */}
             <div className="CurrentStatus">
               <div className="PurpleBox"></div>
               <div className="Status">
-                <p>Currently Working on</p>
-                <h4>Portfolio</h4>
+                <p>Currently Available for hire</p>
               </div>
             </div>
           </div>

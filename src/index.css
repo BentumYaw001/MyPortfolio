@@ -5,6 +5,7 @@
 
 body {
   background-color: hsl(218, 12%, 18%);
+  font-family: "Fira Code";
 }
 
 span {
@@ -81,6 +82,7 @@ span {
 }
 
 .CurrentWork {
+  margin-top: 50px;
   position: relative;
 }
 .DortNineImage {
@@ -101,7 +103,7 @@ span {
   padding: 10px;
 }
 .PurpleBox {
-  background-color: hsl(287 60% 65%);
+  border: 1px solid hsl(287 60% 65%);
   width: 15px;
   height: 15px;
 }
@@ -181,7 +183,9 @@ hr {
 
 .Intro {
   padding: 10px 30px;
+  font-family: "Poppins";
 }
+
 /* MainBody ends here ... */
 
 /* SideBar Starts here */
@@ -227,7 +231,7 @@ hr {
   color: grey;
   border: 2px solid grey;
   margin-bottom: 50px;
-  min-height: 410px;
+  min-height: 420px;
 }
 
 .ProjectImage {
@@ -266,7 +270,7 @@ a,
 }
 
 .CV {
-  width: 100px;
+  width: 130px;
   cursor: pointer;
 }
 /* Projects ends  here */
@@ -426,7 +430,7 @@ textarea {
     height: 300px;
   }
   .ProjectPreview {
-    min-height: 500px;
+    min-height: 530px;
   }
   .ProjectDesktop,
   .SkillDesktop,

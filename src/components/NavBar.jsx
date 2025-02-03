@@ -1,5 +1,4 @@
 import Logo from "/src/assets/design/Logo.svg";
-import Menu from "/src/assets/design/menu.svg";
 import { useNavStore, useScrollStore } from "./Store";
 import { NavData } from "./ProjectData";
 
@@ -30,9 +29,6 @@ function NavBar() {
               </p>
             );
           })}
-        </div>
-        <div className="Menu" onClick={openMenu}>
-          <img src={Menu} alt="" />
         </div>
       </div>
     </>
