@@ -1,0 +1,508 @@
+.App {
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: hsl(218, 12%, 18%);
+}
+
+span {
+  color: hsl(287 60% 65%);
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: hsl(218, 12%, 18%);
+  border-bottom: 1px solid hsl(287 60% 65%);
+}
+.NavMenu {
+  display: none;
+}
+
+.MainBody {
+  margin-top: 100px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  font-family: "Warnes";
+  font-size: 0.7rem;
+  flex-basis: 60%;
+}
+
+.Menu img {
+  height: 30px;
+  width: 30px;
+  flex-basis: 40%;
+}
+.Menu img,
+.SideBar img {
+  cursor: pointer;
+}
+
+/* MainBody Starts here... */
+
+.SelfIntro {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.SelfIntro h3,
+.SelfIntro h2 {
+  color: white;
+}
+
+.SelfIntro h2 {
+  font-size: 1.2rem;
+  border: 1px solid hsl(287 60% 65%);
+  padding: 10px;
+  width: 120px;
+  margin: 30px 0px;
+  cursor: pointer;
+}
+.SelfIntro p {
+  color: grey;
+}
+
+.CurrentWork img {
+  width: 100%;
+}
+
+.CurrentWork {
+  position: relative;
+}
+.DortNineImage {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 35%;
+  bottom: 30%;
+}
+
+.CurrentStatus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid grey;
+  padding: 10px;
+}
+.PurpleBox {
+  background-color: hsl(287 60% 65%);
+  width: 15px;
+  height: 15px;
+}
+
+.Status p,
+.Status h4 {
+  margin: 3px;
+}
+
+.Status h4 {
+  color: white;
+}
+
+.BlockQoute {
+  padding: 0px 20px;
+  border: 2px solid grey;
+  margin: 10px;
+}
+
+hr {
+  width: 55%;
+  height: 1px;
+  border: none;
+  background-color: hsl(287 60% 65%);
+}
+
+.Projects,
+.Skills,
+.About,
+.Contacts {
+  margin-top: 120px;
+}
+
+.Projects h2,
+.Skills h2,
+.About h2,
+.Contacts h2 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.Projects span,
+.Skills span,
+.About span,
+.Contacts span {
+  margin-right: 5px;
+}
+
+.About p {
+  color: grey;
+}
+
+.qoute {
+  font-size: 24px;
+  font-style: italic;
+  color: white;
+  margin: 2px 0px;
+}
+
+.qoute::before {
+  content: "''";
+  font-size: 40px;
+}
+
+.Author {
+  color: gray;
+  font-size: large;
+  font-weight: normal;
+  float: right;
+  border: 2px solid gray;
+  padding: 7px;
+  margin-top: 0;
+  margin-right: -22px;
+  position: sticky;
+}
+
+.Intro {
+  padding: 10px 30px;
+}
+/* MainBody ends here ... */
+
+/* SideBar Starts here */
+.SideBar {
+  color: white;
+  padding: 20px;
+}
+
+.SideMenu {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.CloseBar {
+  float: right;
+  height: 30px;
+  width: 30px;
+}
+
+.SideMenu span {
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.SideIcons {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+}
+
+.SideIcons a {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 10px;
+}
+/* SideBar ends here */
+
+/* Projects starts here */
+.ProjectPreview {
+  color: grey;
+  border: 2px solid grey;
+  margin-bottom: 50px;
+  min-height: 410px;
+}
+
+.ProjectImage {
+  width: 100%;
+  height: 200px;
+  border-bottom: 2px solid grey;
+}
+
+.ProjectFrameworks {
+  border-bottom: 2px solid grey;
+  padding: 10px;
+  margin-top: 1px;
+}
+
+.ProjectName {
+  color: white;
+  border-bottom: 2px solid grey;
+  padding: 10px;
+  margin-top: -15px;
+  font-weight: bold;
+}
+.ProjectDescription {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+a,
+.CV,
+.Send {
+  text-decoration: none;
+  color: white;
+  border: 1px solid hsl(287 60% 65%);
+  margin: 20px 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.CV {
+  width: 100px;
+  cursor: pointer;
+}
+/* Projects ends  here */
+
+/* Skill styling starts here */
+.SkillBox {
+  border: 2px solid grey;
+  margin: 30px 0px;
+}
+.SkillBox h2 {
+  margin: 5px;
+  padding-left: 10px;
+}
+.SkillBox p {
+  color: grey;
+  border-top: 2px solid gray;
+  padding: 10px;
+}
+
+.Dots {
+  display: flex;
+  flex-direction: column;
+}
+
+.Dots img {
+  height: 70px;
+  width: 70px;
+}
+.DotPrime {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+/* Skill styling ends here */
+
+/* Contacts Starts here. */
+
+.GetInTouch {
+  color: white;
+  padding: 20px;
+  border: 2px solid grey;
+  margin-top: 30px;
+}
+
+.AllContacts {
+  margin-top: 30px;
+}
+.PersonalLines {
+  display: flex;
+  margin: -30px 20px;
+}
+
+.PersonalLines a {
+  border: none;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  border: 2px solid grey;
+  outline: none;
+  margin: 10px 0px;
+  background-color: hsl(218, 12%, 18%);
+  padding: 10px;
+  min-width: 150px;
+  color: gray;
+}
+
+textarea {
+  height: 150px;
+}
+.FeedBack {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.Send {
+  cursor: pointer;
+  width: 35px;
+}
+.Details {
+  display: flex;
+  flex-direction: column;
+}
+/* Contacts Starts here. */
+
+/* Footer Starts here */
+
+.Footer hr {
+  width: 100%;
+  margin-top: 50px;
+  background-color: gray;
+  height: 2px;
+}
+
+.CopyRight {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+/* Footer Starts here */
+
+/* page scroll effect */
+.Active {
+  color: hsl(287 60% 65%);
+}
+/* page scroll effect ends */
+
+.Hidden {
+  display: none;
+}
+
+@media (min-width: 230px) {
+  .Logo {
+    flex-basis: 75%;
+  }
+}
+@media (min-width: 330px) {
+  .Logo {
+    flex-basis: 80%;
+  }
+
+  .GetInTouch {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media (min-width: 400px) {
+  .Logo {
+    flex-basis: 85%;
+  }
+  */ .DortNineImage {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 450px) {
+  .ProjectImage {
+    height: 300px;
+  }
+  .ProjectPreview {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 600px) {
+  .ProjectImage {
+    height: 300px;
+  }
+  .ProjectPreview {
+    min-height: 500px;
+  }
+  .ProjectDesktop,
+  .SkillDesktop,
+  .SelfIntro,
+  .Details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .GetInTouch {
+    width: 30%;
+    margin: auto;
+  }
+  .BlockQoute {
+    max-width: 70%;
+    margin: 20px auto;
+  }
+
+  .WhatIDo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu {
+    display: none;
+  }
+
+  .NavBar {
+    gap: 0px;
+  }
+
+  .Logo {
+    flex-basis: 30%;
+  }
+  .NavMenu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-link {
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    color: hsl(287 60% 65%);
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-color: hsl(287 60% 65%);
+    bottom: -7px;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+  }
+
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ProjectDesktop,
+  .SkillDesktop {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .SelfIntro {
+    width: 70%;
+    margin: auto;
+  }
+  .BlockQoute {
+    max-width: 50%;
+  }
+
+  .FeedBack,
+  .Intro {
+    width: 70%;
+    margin: auto;
+  }
+}

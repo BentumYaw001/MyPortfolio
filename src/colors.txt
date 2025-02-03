@@ -1,0 +1,12 @@
+primary: hsl(287 60% 65%);
+    --primary-op: hsl(287 60% 65% / 0.1); main background
+    --gray: hsl(219 14% 71%);  main grey for the borders
+    --gray-op: hsl(219 14% 71% / 0.1); background alt
+    --background: hsl(218 12% 18%);
+    --white: hsl(0 0% 100%);
+
+
+https://eliasdevis.github.io/
+
+another.
+https://abdurrahmans.netlify.app/projects
