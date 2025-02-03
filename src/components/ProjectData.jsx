@@ -56,8 +56,8 @@ const Data = [
     frameWorks: "REACT.JS | HTML | CSS | JAVASCRIPT",
     name: "Interactive Rating Page",
     description: "Collects customer ratings for better service.",
-    liveSite: "",
-    githubLink: "",
+    liveSite: "https://frontend-mentor-rating-page-8ed6.vercel.app/",
+    githubLink: "https://github.com/BentumYaw001/FrontendMentorRatingPage",
   },
 ];
 
