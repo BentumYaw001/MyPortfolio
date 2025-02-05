@@ -38,8 +38,9 @@ span {
 .Logo {
   display: flex;
   align-items: center;
-  font-family: "Warnes";
-  font-size: 0.7rem;
+  font-family: "Audiowide";
+  font-weight: normal;
+  font-size: 1rem;
   flex-basis: 60%;
 }
 
@@ -387,6 +388,11 @@ textarea {
 }
 /* page scroll effect ends */
 
+.Made {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .Hidden {
   display: none;
 }

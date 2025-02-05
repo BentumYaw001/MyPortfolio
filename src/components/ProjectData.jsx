@@ -88,7 +88,7 @@ export const Contacts = [
   {
     icon: Github,
     name: "Github",
-    address: "https://github.com/BentumYaw001github.com/Bentum001",
+    address: "https://github.com/BentumYaw001",
   },
   {
     icon: Email,
@@ -98,7 +98,7 @@ export const Contacts = [
   {
     icon: Telegram,
     name: "Telegram",
-    address: "https://t.me/OoohYeesRit.me/OohYeesRi",
+    address: "https://t.me/OohYeesRi",
   },
   {
     icon: LinkedIn,

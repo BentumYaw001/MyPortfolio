@@ -21,7 +21,7 @@ function Footer() {
       </div>
       <p className="CopyRight">Email: richmondbentum2020@gmail.com</p>
       <h2 className="CopyRight">Frontend Engineer</h2>
-      <p className="CopyRight">Copyright 2025, Made by Bentum</p>
+      <p className="CopyRight Made">&copy; Copyright 2025, Made by Bentum</p>
     </>
   );
 }

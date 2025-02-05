@@ -12,7 +12,7 @@ function MainBody({ id }) {
               <span> frontend developer</span>
             </h3>
             <p>I craft reponsive websites where technology meets creativity</p>
-            <a href="mailto:richmondbentum2020@gmail.com" target="_blank">
+            <a href="https://t.me/OohYeesRi" target="_blank">
               Contact ME
             </a>
           </div>

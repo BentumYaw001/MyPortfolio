@@ -10,8 +10,8 @@ function NavBar() {
     <>
       <div className="NavBar">
         <div className="Logo">
-          <img src={Logo} alt="" />
-          <h2>Bentum ...</h2>
+          {/* <img src={Logo} alt="" /> */}
+          <h2>Bentum </h2>
         </div>
         <div className="NavMenu">
           {NavData.map((item) => {
