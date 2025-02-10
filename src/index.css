@@ -463,6 +463,219 @@ textarea {
   }
   .Menu {
     display: none;
+  } /* Global Styles */
+  body {
+    background-color: hsl(218, 12%, 18%);
+    font-family: "Fira Code";
+    margin: 0;
+  }
+
+  .App {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  span {
+    color: hsl(287 60% 65%);
+  }
+
+  hr {
+    width: 55%;
+    height: 1px;
+    border: none;
+    background-color: hsl(287 60% 65%);
+  }
+
+  /* Navbar */
+  .NavBar {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: hsl(218, 12%, 18%);
+    border-bottom: 1px solid hsl(287 60% 65%);
+  }
+
+  .NavMenu {
+    display: none;
+  }
+
+  /* Logo & Menu */
+  .Logo {
+    display: flex;
+    align-items: center;
+    font-family: "Audiowide";
+    font-size: 1rem;
+    flex-basis: 60%;
+  }
+
+  .Menu img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  /* Main Content */
+  .MainBody {
+    margin-top: 100px;
+  }
+
+  .SelfIntro {
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .SelfIntro h2 {
+    font-size: 1.2rem;
+    border: 1px solid hsl(287 60% 65%);
+    padding: 10px;
+    width: 120px;
+    margin: 30px 0px;
+    cursor: pointer;
+  }
+
+  .CurrentWork {
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .CurrentWork img {
+    width: 100%;
+  }
+
+  .DortNineImage {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 35%;
+    bottom: 30%;
+  }
+
+  /* Sections */
+  .Projects,
+  .Skills,
+  .About,
+  .Contacts {
+    margin-top: 120px;
+  }
+
+  .About p {
+    color: grey;
+  }
+
+  /* Sidebar */
+  .SideBar {
+    color: white;
+    padding: 20px;
+  }
+
+  .SideMenu {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  /* Footer */
+  .Footer hr {
+    width: 100%;
+    margin-top: 50px;
+    background-color: gray;
+    height: 2px;
+  }
+
+  .CopyRight {
+    display: flex;
+    justify-content: center;
+    color: gray;
+  }
+
+  /* Responsive Design */
+  @media (min-width: 230px) {
+    .Logo {
+      flex-basis: 75%;
+    }
+  }
+
+  @media (min-width: 330px) {
+    .Logo {
+      flex-basis: 80%;
+    }
+    .GetInTouch {
+      width: 50%;
+      margin: auto;
+    }
+  }
+
+  @media (min-width: 400px) {
+    .Logo {
+      flex-basis: 85%;
+    }
+  }
+
+  @media (min-width: 450px) {
+    .ProjectImage {
+      height: 300px;
+    }
+    .ProjectPreview {
+      min-height: 500px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .ProjectPreview {
+      min-height: 530px;
+    }
+    .ProjectDesktop,
+    .SkillDesktop,
+    .SelfIntro,
+    .Details {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    .GetInTouch {
+      width: 30%;
+      margin: auto;
+    }
+    .BlockQoute {
+      max-width: 70%;
+      margin: 20px auto;
+    }
+    .Menu {
+      display: none;
+    }
+    .NavMenu {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .ProjectDesktop,
+    .SkillDesktop {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .SelfIntro {
+      width: 70%;
+      margin: auto;
+    }
+    .BlockQoute {
+      max-width: 50%;
+    }
+    .FeedBack,
+    .Intro {
+      width: 70%;
+      margin: auto;
+    }
   }
 
   .NavBar {
