@@ -9,10 +9,11 @@ import Email from "/src/assets/design/Email.svg";
 import LinkedIn from "/src/assets/design/Linkedin.svg";
 import Telegram from "/src/assets/design/Telegram.svg";
 import Twitter from "/src/assets/design/Twitter.svg";
+import ecommerce from "/src/assets/projectFiles/ecommercepage.jpg";
 
 const Data = [
   {
-    image: desserts,
+    image: ecommerce,
     frameWorks: "REACT.JS | HTML | CSS | JAVASCRIPT",
     name: "E-commerce Landing Page",
     description: "an e-commerce page for shoe selection",
