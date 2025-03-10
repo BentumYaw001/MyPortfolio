@@ -10,7 +10,10 @@ function MainBody({ id }) {
             <h3>
               I am a <span>software engineer</span>
             </h3>
-            <p>I craft reponsive websites where technology meets creativity</p>
+            <p>
+              I craft reponsive websites using the latest technogy on the
+              market.I love to stay up to date with technogical trends
+            </p>
             <a href="https://t.me/OohYeesRi" target="_blank">
               Contact ME
             </a>

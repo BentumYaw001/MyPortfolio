@@ -81,15 +81,15 @@ export const Skill = [
   },
   {
     name: "Databases",
-    description: "Oracle Database, MySQL, Microsoft SQL Server",
+    description: "Mongo DB, MySQL, Microsoft SQL Server",
   },
   {
     name: "Other Technologies",
-    description: "HTML, CSS, Markdown, EXCEL, Adobe Photoshop",
+    description: "HTML, CSS, Markdown, EXCEL,REST API",
   },
   {
     name: "FrameWorks",
-    description: "React.js, Tailwind CSS, Bootstrap, Pandas",
+    description: "React.js, Express.js,Tailwind CSS, Bootstrap, Pandas",
   },
 ];
 
