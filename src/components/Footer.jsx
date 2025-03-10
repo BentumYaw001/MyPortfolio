@@ -20,7 +20,7 @@ function Footer() {
         })}
       </div>
       <p className="CopyRight">Email: richmondbentum2020@gmail.com</p>
-      <h2 className="CopyRight">Frontend Engineer</h2>
+      <h2 className="CopyRight">Software Engineer</h2>
       <p className="CopyRight Made">&copy; Copyright 2025, Made by Bentum</p>
     </>
   );

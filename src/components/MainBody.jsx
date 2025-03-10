@@ -8,8 +8,7 @@ function MainBody({ id }) {
         <div className="SelfIntro">
           <div className="WhatIDo">
             <h3>
-              I am a <span>web designer</span> and
-              <span> frontend developer</span>
+              I am a <span>software</span>
             </h3>
             <p>I craft reponsive websites where technology meets creativity</p>
             <a href="https://t.me/OohYeesRi" target="_blank">

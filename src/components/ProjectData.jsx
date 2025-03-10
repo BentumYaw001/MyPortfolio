@@ -14,6 +14,14 @@ const Data = [
   {
     image: desserts,
     frameWorks: "REACT.JS | HTML | CSS | JAVASCRIPT",
+    name: "E-commerce Landing Page",
+    description: "an e-commerce page for shoe selection",
+    liveSite: "https://ecommerce-product-page-pi-five.vercel.app/",
+    githubLink: "https://github.com/BentumYaw001/Ecommerce-Product-Page",
+  },
+  {
+    image: desserts,
+    frameWorks: "REACT.JS | HTML | CSS | JAVASCRIPT",
     name: "Desserts Selection Page",
     description: "A landing page for desserts",
     liveSite: "https://product-list-delta-five.vercel.app/",
