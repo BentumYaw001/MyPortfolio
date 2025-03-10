@@ -11,8 +11,8 @@ function MainBody({ id }) {
               I am a <span>software engineer</span>
             </h3>
             <p>
-              I craft reponsive websites using the latest technogy on the
-              market.I love to stay up to date with technogical trends
+              I craft reponsive websites using the latest technology on the
+              market.I love to stay up to date with technological trends
             </p>
             <a href="https://t.me/OohYeesRi" target="_blank">
               Contact ME
